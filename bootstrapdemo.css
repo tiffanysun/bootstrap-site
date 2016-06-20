@@ -1,5 +1,14 @@
 .jumbotron {
-	height: 80%; 
+	height: 100%;
+	width:100%;
+	margin: auto;
+	text-shadow: black 0.3em;
+	background-image: url(./imgs/pocket-forest.jpeg);
+	z-index: 200; 
+	opacity: .60;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
 }
 
 form {
@@ -13,6 +22,11 @@ img {
 
 .card {
 	background: #000000;
+}
+
+.navbar-nav {
+	float: right;
+	padding-right: 10%;
 }
 
 .hovereffect {
@@ -103,3 +117,14 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -100px; /*the bottom margin is the neg. value of the footer's height*/ 
+}
+
+.footer, .push {
+		height:100px; /*push must be the same height as .footer*/ 
+
+}
